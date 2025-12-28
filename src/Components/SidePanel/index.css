@@ -1,0 +1,47 @@
+.icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 0px;
+}
+.navbar-toggler {
+  cursor: pointer;
+}
+.logout-button {
+  margin-right: 1px;
+}
+.links {
+  width: 14vw;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: 'Bree Serif';
+  text-decoration: none;
+  @media (max-width: 576px) {
+    height: 10px;
+    width: 500px;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+}
+.buttons {
+  margin-right: 10px;
+  background-image: linear-gradient(
+    to left,
+    #dea6c0,
+    #d9a4eb,
+    #a4d1eb,
+    #a4ebc9,
+    #c1ed87,
+    #ede087,
+    #ed9c87
+  );
+  width: 60px;
+  height: 40px;
+  border: 1px dotted;
+  font-family: 'Bree Serif';
+  border-radius: 8px;
+}
+.log-des {
+  font-family: 'Bree Serif';
+}

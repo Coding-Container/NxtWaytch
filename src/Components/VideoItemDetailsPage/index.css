@@ -1,0 +1,22 @@
+.sd-video-player {
+  @media (max-width: 576px) {
+    padding-top: 80px;
+    align-self: center;
+  }
+  @media (min-width: 1200px) {
+    display: none;
+  }
+}
+.md-video-player {
+  align-self: center;
+  margin-bottom: 20px;
+  @media (max-width: 576px) {
+    display: none;
+  }
+}
+.feature-icons {
+  width: 80px;
+  @media (max-width: 576px) {
+    width: 40px;
+  }
+}
