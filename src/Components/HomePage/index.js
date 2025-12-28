@@ -213,7 +213,7 @@ class HomePage extends Component {
                     onClick={this.getAllVideos}
                     type="button"
                   >
-                    Search
+                    Searched
                   </button>
                   {this.renderHomePage()}
                 </VideosContainer>
